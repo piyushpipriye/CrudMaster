@@ -1,0 +1,8 @@
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..csproj.AssemblyReference.cache
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..GeneratedMSBuildEditorConfig.editorconfig
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..AssemblyInfoInputs.cache
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..AssemblyInfo.cs
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..csproj.CoreCompileInputs.cache
+D:\Piyush\CrudMaster\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..MvcApplicationPartsAssemblyInfo.cs
+D:\Piyush\CrudMaster\obj\Debug\net9.0\..MvcApplicationPartsAssemblyInfo.cache
