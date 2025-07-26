@@ -60,4 +60,5 @@ http://localhost:<port>/swagger
 dotnet publish -c Release -o ./publish
 ```
 
+![](Screenshot%20(314).png)
 
