@@ -25,28 +25,39 @@
 ```bash
 git clone git@github-piyush:piyushpipriye/CrudMaster.git
 cd CrudMaster
-
-Run with .NET CLI
-bash
-Copy
-Edit
-dotnet restore
-dotnet build
-dotnet run
-Swagger UI will be available at:
-http://localhost:<port>/swagger
-
-Make sure to set up your connection string in appsettings.json.
-
+```
 
 🧱 Project Structure
-bash
-Copy
-Edit
 CrudMaster/
 ├── Controllers/         # API Controllers
 ├── Data/                # EF Core DbContext
 ├── Models/              # Entity Models
 ├── Program.cs           # Main entry point
 ├── appsettings.json     # Configuration file
-└── launchSettings.json  # 
+└── launchSettings.json  # Launch profile for local testing
+### Run with .NET CLI
+
+```bash
+dotnet restore
+dotnet build
+dotnet run
+```
+
+Swagger UI will be available at:
+http://localhost:<port>/swagger
+
+🧪 API Endpoints
+| Method | Endpoint             | Description         |
+| ------ | -------------------- | ------------------- |
+| GET    | `/api/products`      | Get all products    |
+| GET    | `/api/products/{id}` | Get a product by ID |
+| POST   | `/api/products`      | Add a new product   |
+| PUT    | `/api/products/{id}` | Update a product    |
+| DELETE | `/api/products/{id}` | Delete a product    |
+
+🚀 Deployment
+```bash
+dotnet publish -c Release -o ./publish
+```
+
+
