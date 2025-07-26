@@ -27,14 +27,6 @@ git clone git@github-piyush:piyushpipriye/CrudMaster.git
 cd CrudMaster
 ```
 
-🧱 Project Structure
-CrudMaster/
-├── Controllers/         # API Controllers
-├── Data/                # EF Core DbContext
-├── Models/              # Entity Models
-├── Program.cs           # Main entry point
-├── appsettings.json     # Configuration file
-└── launchSettings.json  # Launch profile for local testing
 ### Run with .NET CLI
 
 ```bash
